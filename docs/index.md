@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Welcome
 ---
 
 ## Welcome to my personal website for EGR314
