@@ -6,7 +6,7 @@ title: Component Selection
 
 1. XC1259TR-ND surface mount crystal
 
-    ![](./EGR314_component_selection_pictures/pic1.jpeg)
+    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic1.jpeg">
 
     * $1/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
