@@ -597,14 +597,14 @@
 
   <h1>Component Selection</h1>
 
-<p><strong>External Clock Module</strong></p>
+<p><strong>PIC Microcontrollers</strong></p>
 <ol>
 <li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic1.jpeg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic1.jpeg"></a></p>
+<p>PIC32MX250F128B-I/SS</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic1.jpeg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic1.jpeg?raw=true"></a></p>
 <ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
+<li>$4.85/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC32MX250F128B-I-SS/3046658">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -615,12 +615,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Supports UART and I2C</td>
+<td>Expensive product</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Performance Heavy</td>
+<td>Increased power consumption due to high specs</td>
 </tr>
 <tr>
 <td>Meets surface mount constraint of project</td>
@@ -630,11 +630,11 @@
 </table>
 </li>
 <li>
-<p>CTX936TR-ND surface mount oscillator</p>
-<p><a class="glightbox" href="image3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="image3.png" /></a></p>
+<p>PIC18F14Q20-I/SS</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic2.jpeg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic2.jpeg?raw=true"></a></p>
 <ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
+<li>$0.92/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F14Q20-I-SS/24617052">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -645,23 +645,322 @@
 </thead>
 <tbody>
 <tr>
-<td>Outputs a square wave</td>
-<td>More expensive</td>
+<td>Supports UART and I2C</td>
+<td>Low Memory</td>
 </tr>
 <tr>
-<td>Stable over operating temperature</td>
-<td>Slow shipping speed</td>
+<td>Small yet capable</td>
+<td>has lower specs compared to other options</td>
 </tr>
 <tr>
-<td>Direct interface with PSoC (no external circuitry required) range</td>
+<td>Meets surface mount constraint of project</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>PIC18F27Q10-I/SO</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic3.jpeg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic3.jpeg?raw=true"></a></p>
+<ul>
+<li>$1.45/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F27Q10-I-SO/10064343">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supports UART and I2C</td>
+<td>Extremely Long Datasheet</td>
+</tr>
+<tr>
+<td>Great performance</td>
+<td>May cause spacing issues</td>
+</tr>
+<tr>
+<td>Meets surface mount constraint of project</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:</strong> Option 3: PIC18F27Q10-I/SO</p>
+<p><strong>Rationale:</strong> The PIC18F27Q10-I/SO is being chosen as it is relatively cheap while also providing great specs compared to option 2. The 28 pins provides room for error and improves the overall scalability of the circuit.</p>
+<p><strong>Voltage Sensors</strong></p>
+<ol>
+<li>
+<p>INA226AIDGSR</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens1.jpeg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens1.jpeg?raw=true"></a></p>
+<ul>
+<li>$2.37/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/INA226AIDGSR/2687236">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High Accuracy</td>
+<td>Small size</td>
+</tr>
+<tr>
+<td>Good input voltage range</td>
+<td>Only measures current</td>
+</tr>
+<tr>
+<td>Meets surface mount constraint of project</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>INA226AQDGSRQ1</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens2.jpeg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens2.jpeg?raw=true"></a></p>
+<ul>
+<li>$2.52/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/INA226AQDGSRQ1/5404241">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High Accuracy</td>
+<td>Only measures current</td>
+</tr>
+<tr>
+<td>Designed for rough use</td>
+<td>Small size</td>
+</tr>
+<tr>
+<td>Meets surface mount constraint of project</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>MIKROE-2910</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens3.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens3.jpg?raw=true"></a></p>
+<ul>
+<li>$20/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/mikroelektronika/MIKROE-2910/8440417">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple to use</td>
+<td>Less flexibility</td>
+</tr>
+<tr>
+<td>Less time required</td>
+<td>Expensive</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 1: INA226AIDGSR</p>
+<p><strong>Rationale:</strong> Option 1 was most appealing as it was the cheapest option, while also providing similar specs as the rest of the options. OOption 3 is a possible second choice as it will help with time constraints.</p>
+<p><strong>Optical Sensor</strong></p>
+<ol>
+<li>
+<p>BH1750FVI-TR</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens1.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens1.jpg?raw=true"></a></p>
+<ul>
+<li>$3.29/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/rohm-semiconductor/BH1750FVI-TR/2041441?s=N4IgTCBcDaIEIAkCMB2ArABgGIDUCSIAugL5A">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple ambient light sensor</td>
+<td>Extremely small dimensions</td>
+</tr>
+<tr>
+<td>Meets sensor requirements</td>
+<td>Difficult Solder job</td>
+</tr>
+<tr>
+<td>Meets surface mount constraint of project</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>VCNL4035X01-GS08</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens2.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens2.jpg?raw=true"></a></p>
+<ul>
+<li>$1.95/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VCNL4035X01-GS08/6596530">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Biggest dimensions of all</td>
+<td>Small supply voltage range</td>
+</tr>
+<tr>
+<td>Meets sensor requirements</td>
+<td>Relatively small part</td>
+</tr>
+<tr>
+<td>Meets surface mount constraint of project</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>AS7341-DLGT</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens3.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens3.jpg?raw=true"></a></p>
+<ul>
+<li>$7.64/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/ams-osram-usa-inc/AS7341-DLGT/9996231">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supports color filtering</td>
+<td>Extremely small part</td>
+</tr>
+<tr>
+<td>Multiple Functions</td>
+<td>Difficult Solder job</td>
+</tr>
+<tr>
+<td>Meets surface mount constraint of project</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 2: VCNL4035X01-GS08</p>
+<p><strong>Rationale:</strong> Option 2 was the most appealing, as the dimensions for surface mounting were less strenuous. Furthermore, additional functionality while also sensing for ambient light levels. </p>
+<p><strong>Solar Panels</strong></p>
+<ol>
+<li>
+<p>P105</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel1.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel1.jpg?raw=true"></a></p>
+<ul>
+<li>$35/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/voltaic-systems/P105/12154975">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can provide more power than others</td>
+<td>No mounting Bracket</td>
+</tr>
+<tr>
+<td>Better Electrical Specs</td>
+<td>Most expensive</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>5366</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel2.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel2.jpg?raw=true"></a></p>
+<ul>
+<li>$26.19/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/5366/15998627">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decent sized panel</td>
+<td>No mounting Bracket</td>
+</tr>
+<tr>
+<td>decent electical specs</td>
+<td>Bit more expensive</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>P126</p>
+<p><a class="glightbox" href="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel3.jpg?raw=true" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel3.jpg?raw=true"></a></p>
+<ul>
+<li>$21/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/voltaic-systems/P126/18069490">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheaper than other options</td>
+<td>No mounting Bracket</td>
+</tr>
+<tr>
+<td>Great performance</td>
+<td>May cause spacing issues</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 3: P126</p>
+<p><strong>Rationale:</strong> Due to possible spacing constraints and pricing constraints, option 3 was more appealing than the rest.</p>
 
 
 
