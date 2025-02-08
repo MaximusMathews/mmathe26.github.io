@@ -2,6 +2,13 @@
 title: Component Selection
 ---
 
+**Roles and Responsibilities**
+
+I am responsible for the sensor system and using a PIC. The sensor system will include a solar panel with a voltage sensor to measure the output of the solar panel and a light sensor to detect the greatest light source in the area. I will use I2C to communicate the data from the sensors and send them through the daisy chain from UART communication. This data will help control the motors and move the solar panel towards the greatest light source. 
+
+**MCC Configuration**
+<img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/MCC_Config.png?raw=true">
+
 **PIC Microcontrollers**
 
 1. PIC32MX250F128B-I/SS
