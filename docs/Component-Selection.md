@@ -172,19 +172,19 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
     | Decent sized panel                        | No mounting Bracket                                              |
     | decent electical specs                    | Bit more expensive                                               |
 
-3. P126
+3. 313070004
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel3.jpg?raw=true">
+    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel4.jpg?raw=true">
 
-    * $21/each
-    * [link to product](https://www.digikey.com/en/products/detail/voltaic-systems/P126/18069490)
+    * $6.07/each
+    * [link to product](https://www.digikey.com/short/wbntjhmn)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Cheaper than other options                | No mounting Bracket                                              |
-    | Great performance                         | May cause spacing issues                                         |
+    | Great performance                         | No Barrel Jack connecter for easy use                            |
 
 
-**Choice:** Option 3: P126
+**Choice:** Option 3: 313070004
 
 **Rationale:** Due to possible spacing constraints and pricing constraints, option 3 was more appealing than the rest.
