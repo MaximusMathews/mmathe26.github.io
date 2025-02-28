@@ -1,7 +1,7 @@
 title: Charts
 ---
 ## Individual Block Diagram
-![Sensor System Block Diagram](Block-Diagram.png)
+![Sensor System Block Diagram](Block_Diagram_Updated.png)
 
 ## Sensor System Schematic
 ![Sensor System Schematic](Sensor-System.png)
