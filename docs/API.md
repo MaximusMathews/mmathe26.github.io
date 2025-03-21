@@ -5,7 +5,7 @@ Title: API
 ## Messages Received
 ### Message Type 1 (Wifi Toggle - Auto/Manual)
 
-<b><i>Used to toggle stepper motor functionality from automatic (state 0) to manual (state 1).</i></b>
+<b><i>Used to toggle stepper motor from automatic (state 0) to manual (state 1).</i></b>
 
 |               | Byte 1      |  
 |---------------|-------------|
@@ -30,7 +30,7 @@ Title: API
 ## Messages Sent
 ### Message Type 2 (Optical Sensor Readings)
 
-<b><i>Used to determine where the stepper motor will rotate, facing the solar panel towards the highest light level detected by the optical sensors. Bytes 1-2 act as an identifier, allowing the stepper motor to determine which way to face once all four readings have been sent.</i></b>
+<b><i>The light levels will be sent to the motor subsystem to automatically control the solar cell to face the most optimal position to generate power. The readings will have a range of lux between 0-9999.</i></b>
 
 |               | Byte 1-2   | Byte 3-6   | Byte 7-8   | Byte 9-12  | Byte 13-14   | Byte 15-18 | Byte 19-20  | Byte 21-24 |
 |---------------|------------|------------|------------|------------|--------------|------------|-------------|------------|
