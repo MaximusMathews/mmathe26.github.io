@@ -2,7 +2,7 @@
 Title: API
 ---
 
-## Messages Received
+## Messages Passed on
 ### Message Type 1 (Wifi Toggle - Auto/Manual)
 
 <b><i>Used to toggle stepper motor from automatic (state 0) to manual (state 1).</i></b>
