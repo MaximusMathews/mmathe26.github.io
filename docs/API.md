@@ -59,7 +59,7 @@ Title: API
 
 |               | Byte 1         | Byte 2-5        |
 |---------------|----------------|-----------------|
-| Variable Name | voltage_sensor | voltage_reading |
+| Variable Name | voltage_sensor | milli_voltage_reading |
 | Variable Type | char           | char        |
 | Min Value     | V              | 0000            |
 | Max Value     | V              | 5400            |
