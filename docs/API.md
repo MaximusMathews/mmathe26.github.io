@@ -44,9 +44,9 @@ Title: API
 
 <b><i>The light levels will be sent to the motor subsystem to automatically control the solar cell to face the most optimal position to generate power. The readings will have a range of lux between 0-9999.</i></b>
 
-|               | Byte 1-2   | Byte 3-6   | Byte 7-8   | Byte 9-12  | Byte 13-14   | Byte 15-18 | Byte 19-20  | Byte 21-24 |
-|---------------|------------|------------|------------|------------|--------------|------------|-------------|------------|
-| Variable Name | sensor_one | L1_Reading | sensor_two | L2_Reading | sensor_three | L3_Reading | sensor_four | L4_Reading |
+|               | Byte 1-2   | Byte 3-6   | Byte 7-8   | Byte 9-12  | 
+|---------------|------------|------------|------------|------------|
+| Variable Name | sensor_one | L1_Reading | sensor_two | L2_Reading |
 | Variable Type | char       | char      | char       | char      | 
 | Min Value     | S1         | 0000          | S2         | 0000          |
 | Max Value     | S1         | 9999       | S2         | 9999       |
