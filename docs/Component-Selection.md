@@ -141,10 +141,22 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
     | Multiple Functions                        | Difficult Solder job                                             |
     | Meets surface mount constraint of project |
 
+4. VCNL4035X01-SB
 
-**Choice:** Option 2: VCNL4035X01-GS08
+    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/VCNL4035X01-SB.jpg?raw=true">
 
-**Rationale:** Option 2 was the most appealing, as the dimensions for surface mounting were less strenuous. Furthermore, additional functionality while also sensing for ambient light levels. 
+    * $13.3/each
+    * [link to product](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VCNL4035X01-SB/8573328)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Biggest dimensions of all                 | Small supply voltage range                                       |
+    | Meets sensor requirements                 | Relatively small part                                            |
+    | Easy to Implement                         |
+
+**Choice:** Option 2: VCNL4035X01-SB
+
+**Rationale:** Option 2 was the most appealing, as the dimensions for surface mounting were less strenuous. Furthermore, additional functionality was appealing while also sensing for ambient light levels. Lastly, it provided the least time cost out of all other sensors.
 
 **Solar Panels**
 
