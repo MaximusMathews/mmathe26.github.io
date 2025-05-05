@@ -7,7 +7,7 @@ title: Component Selection
 I am responsible for the sensor system and using a PIC. The sensor system will include a solar panel with a voltage sensor to measure the output of the solar panel and a light sensor to detect the greatest light source in the area. I will use I2C to communicate the data from the sensors and send them through the daisy chain from UART communication. This data will help control the motors and move the solar panel towards the greatest light source. 
 
 **MCC Configuration**
-<img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/MCC_Config.png?raw=true">
+<img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/MPLAB_Config.png?raw=true">
 
 **PIC Microcontrollers**
 
@@ -154,7 +154,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
     | Meets sensor requirements                 | Relatively small part                                            |
     | Easy to Implement                         |
 
-**Choice:** Option 2: VCNL4035X01-SB
+**Choice:** Option 4: VCNL4035X01-SB
 
 **Rationale:** Option 2 was the most appealing, as the dimensions for surface mounting were less strenuous. Furthermore, additional functionality was appealing while also sensing for ambient light levels. Lastly, it provided the least time cost out of all other sensors.
 
@@ -200,3 +200,17 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 **Choice:** Option 3: 313070004
 
 **Rationale:** Due to possible spacing constraints and pricing constraints, option 3 was more appealing than the rest.
+
+
+## Summary Table
+
+|Component| Type |
+|PIC18F27Q10-I/SO| Microcontroller|
+|INA226AIDGSR|Voltage Sensor|
+|VCNL4035X01-SB|Optical Sensor|
+|313070004|Solar Cell|
+
+## Component Decision Process
+
+The components were selected to help streamline the process of communication and reduce time costs. These components were also selected to demonstrate STEAM based innovation and advanced serial communication. 
+
