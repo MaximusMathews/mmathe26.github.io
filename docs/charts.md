@@ -15,20 +15,20 @@ I removed several sensors due to time constraints and some issues with the volta
 ## PCB Design
 
 **Sensor**
-![PCB Front](IMG_6553.png)
-![PCB Back](IMG_6554.png)
+![PCB Front](IMG_6553.jpeg)
+![PCB Back](IMG_6554.jpeg)
 
 **Motor**
-![PCB Front](IMG_6545.png)
-![PCB Back](IMG_6546.png)
+![PCB Front](IMG_6545.jpeg)
+![PCB Back](IMG_6546.jpeg)
 
 **HMI**
-![PCB Front](IMG_6550.png)
-![PCB Back](IMG_6551.png)
+![PCB Front](IMG_6550.jpeg)
+![PCB Back](IMG_6551.jpeg)
 
 **MQTT**
-![PCB Front](IMG_6548.png)
-![PCB Back](IMG_6549.png)
+![PCB Front](IMG_6548.jpeg)
+![PCB Back](IMG_6549.jpeg)
 
 ## Schematic Functionality & Design Process
 
