@@ -72,7 +72,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 2. INA226AQDGSRQ1
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens2.jpeg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/voltsens2.jpeg">
 
     * $2.52/each
     * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/INA226AQDGSRQ1/5404241)
@@ -85,7 +85,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 3. MIKROE-2910
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens3.jpg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/voltsens3.jpg">
 
     * $20/each
     * [link to product](https://www.digikey.com/en/products/detail/mikroelektronika/MIKROE-2910/8440417)
@@ -104,7 +104,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 1. BH1750FVI-TR
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens1.jpg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/optsens1.jpg">
 
     * $3.29/each
     * [link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/BH1750FVI-TR/2041441?s=N4IgTCBcDaIEIAkCMB2ArABgGIDUCSIAugL5A)
@@ -117,7 +117,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 2. VCNL4035X01-GS08
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens2.jpg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/optsens2.jpg">
 
     * $1.95/each
     * [link to product](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VCNL4035X01-GS08/6596530)
@@ -130,7 +130,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 3. AS7341-DLGT
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/optsens3.jpg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/optsens3.jpg">
 
     * $7.64/each
     * [link to product](https://www.digikey.com/en/products/detail/ams-osram-usa-inc/AS7341-DLGT/9996231)
@@ -143,7 +143,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 4. VCNL4035X01-SB
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/VCNL4035X01-SB.jpg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/VCNL4035X01-SB.jpg">
 
     * $13.3/each
     * [link to product](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VCNL4035X01-SB/8573328)
@@ -162,7 +162,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 1. P105
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel1.jpg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/panel1.jpg">
 
     * $35/each
     * [link to product](https://www.digikey.com/en/products/detail/voltaic-systems/P105/12154975)
@@ -174,7 +174,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 2. 5366
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel2.jpg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/panel2.jpg">
 
     * $26.19/each
     * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/5366/15998627)
@@ -186,7 +186,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 3. 313070004
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/panel4.jpg">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/panel4.jpg">
 
     * $6.07/each
     * [link to product](https://www.digikey.com/short/wbntjhmn)
