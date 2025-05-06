@@ -59,7 +59,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 1. INA226AIDGSR
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/voltsens1.jpeg">
+    <img src="https://github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/voltsens1.jpeg">
 
     * $2.37/each
     * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/INA226AIDGSR/2687236)
