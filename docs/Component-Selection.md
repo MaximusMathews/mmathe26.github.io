@@ -7,13 +7,13 @@ title: Component Selection
 I am responsible for the sensor system and using a PIC. The sensor system will include a solar panel with a voltage sensor to measure the output of the solar panel and a light sensor to detect the greatest light source in the area. I will use I2C to communicate the data from the sensors and send them through the daisy chain from UART communication. This data will help control the motors and move the solar panel towards the greatest light source. 
 
 **MCC Configuration**
-<img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/MPLAB_Config.png?raw=true">
+<img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/MPLAB_Config.png">
 
 **PIC Microcontrollers**
 
 1. PIC32MX250F128B-I/SS
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic1.jpeg?raw=true">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/pic1.jpeg">
 
     * $4.85/each
     * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/PIC32MX250F128B-I-SS/3046658)
@@ -26,7 +26,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 2. PIC18F14Q20-I/SS
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic2.jpeg?raw=true">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/pic2.jpeg">
 
     * $0.92/each
     * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/PIC18F14Q20-I-SS/24617052)
@@ -39,7 +39,7 @@ I am responsible for the sensor system and using a PIC. The sensor system will i
 
 3. PIC18F27Q10-I/SO
 
-    <img src="https://github.com/MaximusMathews/mmathe26.github.io/blob/main/docs/EGR314%20_component_selection_pictures/pic3.jpeg?raw=true">
+    <img src="https://raw.github.com/MaximusMathews/mmathe26.github.io/refs/heads/main/docs/EGR314%20_component_selection_pictures/pic3.jpeg">
 
     * $1.45/each
     * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/PIC18F27Q10-I-SO/10064343)
